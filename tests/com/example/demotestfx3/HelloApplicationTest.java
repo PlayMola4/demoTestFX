@@ -96,8 +96,8 @@ class HelloApplicationTest {
     void escribimos_EditText_comprobamos_Valor(FxRobot robot) {
         // when:
         robot.clickOn("#tfNombre");
-        robot.write("David Góngora");
+        robot.write("Claudiu");
         //Validaciones con Matchers de el valor escrito
-        FxAssert.verifyThat("#tfNombre", TextInputControlMatchers.hasText("David Góngora"));
+        FxAssert.verifyThat("#tfNombre", TextInputControlMatchers.hasText("Claudiu"));
     }
 }

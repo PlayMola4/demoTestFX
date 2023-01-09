@@ -41,4 +41,11 @@ class HelloApplicationTestFXML {
 
     }
 
+    @Test
+    void validarEscribirValorEncampoTexto(FxRobot robot) throws InterruptedException {
+        robot.clickOn("#tfValidarNombre");
+        robot.write("Claudiu");
+        //robot.wait(5000);
+    }
+
 }
